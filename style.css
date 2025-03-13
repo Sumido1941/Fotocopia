@@ -32,6 +32,7 @@ body{
     border-color: antiquewhite;
     border: 1px solid firebrick;
     gap: auto;
+    justify-content: space-between;
 }
 .fundo_1{
     background-color: antiquewhite;
@@ -46,7 +47,7 @@ body{
     background-color: antiquewhite;
     box-sizing: border-box;
     border-style: solid;
-    padding: 150px;
+    padding: auto  ;
     margin: 6px;
     align-items: center;
     justify-content: center;
@@ -67,9 +68,9 @@ table {
   }
   
   td, th {
-    border: 1px solid #dddddd;
+    border: 1px solid #020202;
     text-align: left;
-    padding: 8px;
+    padding: 7px;
   }
   
   tr:nth-child(even) {
